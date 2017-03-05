@@ -9,7 +9,7 @@
       "syntax",
       "theme"
   ],
-  "repository": "https://github.com/atom/blackboard-syntax-ni",
+  "repository": "https://github.com/newinnovations/blackboard-syntax-ni",
   "license": "MIT",
   "author": {
     "name": "Martin van der Werff",
