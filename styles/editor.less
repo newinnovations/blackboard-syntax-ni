@@ -93,37 +93,36 @@ atom-text-editor {
   .fold-marker:after {
     color: @syntax-gutter-text-color-selected;
   }
-}
 
-atom-text-editor::shadow
-{
-  .wrap-guide {
-    opacity: 0.4;
-  }
-  .highlight {
-    &.find-result {
-      .region {
-        background: rgba(0, 0, 128, 0.4);
-        border-bottom: 1px solid #66a;
-      }
+  &.editor {
+    .wrap-guide {
+      opacity: 0.4;
     }
-    &.current-result {
-      .region {
-        background: rgba(0, 0, 255, 0.4);
-        border-top: 1px solid #88c;
-        border-bottom: 1px solid #88c;
-        border-left: 0;
-        border-right: 0;
+    .highlight {
+      &.find-result {
+        .region {
+          background: rgba(0, 0, 128, 0.4);
+          border-bottom: 1px solid #66a;
+        }
       }
-    }
-    &.selection {
-      .region {
-        background: rgba(0, 255, 255, 0.25);
+      &.current-result {
+        .region {
+          background: rgba(0, 0, 255, 0.4);
+          border-top: 1px solid #88c;
+          border-bottom: 1px solid #88c;
+          border-left: 0;
+          border-right: 0;
+        }
       }
-    }
-    &.bracket-matcher {
-      .region {
-        border-bottom-width: 2px;
+      &.selection {
+        .region {
+          background: rgba(0, 255, 255, 0.25);
+        }
+      }
+      &.bracket-matcher {
+        .region {
+          border-bottom-width: 2px;
+        }
       }
     }
   }
