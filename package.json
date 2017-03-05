@@ -1,13 +1,13 @@
 {
   "name": "blackboard-syntax-ni",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A theme aimed to be visually comparable to TextMate’s Blackboard syntax theme.",
   "keywords": [
-      "blackboard",
-      "textmate",
-      "syntax",
-      "theme"
+    "blackboard",
+    "textmate",
+    "syntax",
+    "theme"
   ],
   "repository": "https://github.com/newinnovations/blackboard-syntax-ni",
   "license": "MIT",
